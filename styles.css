@@ -1,0 +1,254 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.privacyHeader{
+    justify-content: center;
+}
+.headerClass{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.introClass{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, p {
+    margin: 0 0 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Features Section */
+#features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.zoom:hover{
+    transform: scale(1.02);
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Demo Section */
+#demo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#demo h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#demo img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#demo a {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#demo a:hover {
+    background-color: #45a049;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+}
+
+/* Final CTA Section */
+#cta-final {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#cta-final h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cta-final p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#cta-final .cta-button {
+    background-color: white;
+    color: #4CAF50;
+}
+
+#cta-final .cta-button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #features .feature {
+        width: 45%;
+    }
+
+    #features .feature img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .feature h3 {
+        font-size: 1.3em;
+    }
+
+    #cta-final h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    #features .feature {
+        width: 100%;
+    }
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1.2em;
+    }
+
+    #cta-final h2 {
+        font-size: 1.8em;
+    }
+}
